@@ -7,7 +7,7 @@ Esse repositório abriga meu diário aberto de laboratório. Vou escrever as mem
 
 ## Diário
 
-* [Quinta-feira - 13/04/2017 - Atulizando...](https://github.com/giuliazc/Open-Lab-Book/blob/master/notes/nnc.md)
+* [Quinta-feira - 13/04/2017 - Atualizando...](https://github.com/giuliazc/Open-Lab-Book/blob/master/notes/nnc.md)
 
 
 
