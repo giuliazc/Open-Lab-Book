@@ -17,3 +17,5 @@ A estimulação elétrica induziu ondas delta. Então realizar a detecção dess
 1) Os dados foram decimados (a taxa de amostragem foi reduzida por um fator de 15, no caso) -> Com uma taxa de amostragem de 30 KHz, seria quase uma missão impossível processar toda essa quantidade de dados.
 
 ****
+
+[Retornar ao índice ](https://github.com/giuliazc/Open-Lab-Book/blob/master/README.md)
