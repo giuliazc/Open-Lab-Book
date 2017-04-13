@@ -7,7 +7,7 @@ Esse repositório abriga meu diário aberto de laboratório. Vou escrever as mem
 
 ## Diário
 
-* [Terça-feira - 11/04/2017 - NNC Atulizando...](https://github.com/vittorfp/Open-Lab-Book/ "oi")
+* [Quinta-feira - 13/04/2017 - Atulizando...](https://github.com/giuliazc/Open-Lab-Book/ "oi")
 
 
 
