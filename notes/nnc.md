@@ -44,4 +44,46 @@ Já já irei disponibilizar todos os códigos aqui. É só digitar, na linha de 
 
 ****
 
+Aqui está o resultado da detecção das ondas deltas evocadas:
+
+## Linha de Base
+
+<p align="center">
+  <img src="https://github.com/giuliazc/Open-Lab-Book/blob/master/notes/imagens/BaseLine.png" width="650"/>
+</p>
+
+A linha de base vocês já conhecem, constituí aqueles 15 primeiros minutinhos. E cada quadradinho desse é uma janela de 300 ms, que eu mencionei lá em cima. Pós HFS 1 e Pós HFS 2 correspondem aos momentos após a aplicação dos estímulos de alta frequência. <br>
+Obs.: n=21 e n=33 não são ondas delta. Logo atualizarei a imagem.
+
+## Pós HFS 1
+
+<p align="center">
+  <img src="https://github.com/giuliazc/Open-Lab-Book/blob/master/notes/imagens/PostHFS1.png" width="650"/>
+</p>
+
+## Pós HFS 2 
+
+<p align="center">
+  <img src="https://github.com/giuliazc/Open-Lab-Book/blob/master/notes/imagens/PostHFS2.png" width="650"/>
+</p>
+
+Observem que o miss rate reduziu bastante ao serem aplicados os estímulos em alta frequência. Ele representa a taxa de falhas em termos de indução das ondas delta. <br><br>
+
+Pra quem quiser ver a imagem com uma qualidade bem melhor, e poder dar um zoom legal, deixei os arquivos .eps [aqui no drive](https://drive.google.com/open?id=0Bz3OEeGo3uh0c3hPTFJKaWF3Mm8). Vou deixando lá a medida que eu for explicando.
+
+****
+
+Agora vou falar sobre a estimação de algumas características dessas ondas evocadas, tais como inclinação, amplitude, duração e latência.<br> Esse será o assunto do próximo tópico. ;)
+
+****
+
+Sugestões do dia: (Em breve) <br>
+LFP — <br>
+Hipocampo — <br>
+Córtex — <br>
+Amostragem — <br>
+
+****
+
+
 [Retornar ao índice ](https://github.com/giuliazc/Open-Lab-Book/blob/master/README.md)
