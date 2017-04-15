@@ -14,14 +14,14 @@ O nosso objetivo é estudar os processos de memória a um nível de sistemas, pe
 
 A estimulação elétrica induziu ondas delta. Então, realizar a detecção dessas ondas evocadas foi uma das minhas primeiras missões. O procedimento foi o seguinte:
 
-1. Os dados foram decimados (a taxa de amostragem foi reduzida por um fator de 15, no caso) -> Com uma taxa de amostragem de 30 KHz, seria quase uma missão impossível processar toda essa quantidade de dados. Eis aqui uma comparação entre o dado bruto e o dado decimado.
+1. Os dados foram decimados (a taxa de amostragem foi reduzida por um fator de 15, no caso) -> Com uma taxa de amostragem de 30 KHz, seria quase uma missão impossível processar toda essa quantidade de dados. <br>Eis aqui uma comparação entre o dado bruto e o dado decimado.
 
 <p align="center">
   <img src="https://github.com/giuliazc/Open-Lab-Book/blob/master/notes/imagens/DadoBruto_Decimado.png" width="550"/>
 </p>
 
 Observe que isolamos janelas de 300 ms imediatamente após a aplicação de cada pulso elétrico. Esse é o intervalo de tempo suficiente para a análise das ondas delta evocadas. Para outras análises, variamos o tamanho das janelas. <br>
-No experimento, foram aplicados pulsos elétricos a cada 20 s. Isso constituiu a chamada linha de base, com 15 min de duração. Guarde esse nome, pois vamos precisar dele. Depois foram aplicados estímulos de alta frequência (HFS - \*High frequency stimulation\*).
+No experimento, foram aplicados pulsos elétricos a cada 20 s. Isso constituiu a chamada linha de base, com 15 min de duração. Guarde esse nome, pois vamos precisar dele. Depois foram aplicados também estímulos de alta frequência (HFS - \*High frequency stimulation\*).
 
 2. Em seguida, os dados foram filtrados e normalizados (foram calculados os valores do escore-Z). O escore-Z basicamente representa o quanto uma medida se afasta da média em termos de desvios padrão. Os dados são centralizados para ter média 0. Se Z > 0, significa que o dado está acima da média. Se Z < 0, abaixo da média.<br> 
 Para ter uma ideia melhor, observem esta imagem:
@@ -31,11 +31,11 @@ Para ter uma ideia melhor, observem esta imagem:
 </p>
 
 Para os dados com média ![equation](http://latex.codecogs.com/gif.latex?\bar{X}) e desvio padrão S, o escore-Z de um dado ponto x é calculado da seguinte maneira: <br>
-![equation](http://latex.codecogs.com/gif.latex?X%3D%5Cfrac%7Bx-\bar{X}%7D%7BS%7D)
+![equation](http://latex.codecogs.com/gif.latex?Z%3D%5Cfrac%7Bx-\bar{X}%7D%7BS%7D)
 
 Aqui dá pra ver o que foi falado lá em cima: quando o valor em um ponto é igual à média dos dados, Z=0. 
 
-3. Dos escores-Z padronizados, obtive os cruzamentos em zero. Assim, de acordo com a duração entre dois cruzamentos sucessivos e da amplitude do sinal, foi detectada as ondinhas delta. No final, foi realizado um ajuste manual para os casos de falso positivo/falso negativo. Um exemplo do Ajuste Manual realizado está aqui:
+3. Dos escores-Z padronizados, obtive os cruzamentos em zero. Assim, de acordo com a duração entre dois cruzamentos sucessivos e da amplitude do sinal, foi detectada as ondinhas delta. No final, foi realizado um ajuste manual para os casos de falso positivo/falso negativo. <br>Um exemplo do Ajuste Manual realizado está aqui:
 <p align="center">
   <img src="https://github.com/giuliazc/Open-Lab-Book/blob/master/notes/imagens/AjusteManual.png" width="550"/>
 </p>
