@@ -6,7 +6,6 @@ Esse repositório abriga meu diário aberto de laboratório. Vou escrever as mem
 ****
 
 ## Diário
-* [Quarta-feira - 28/06/2017](https://github.com/giuliazc/Open-Lab-Book/blob/master/notes/28_06_2017.md)
 * [Segunda-feira - 26/06/2017](https://github.com/giuliazc/Open-Lab-Book/blob/master/notes/26_06_2017.md)
 * [Quarta-feira - 19/04/2017](https://github.com/giuliazc/Open-Lab-Book/blob/master/notes/19_04_2017.md)
 * [Quinta-feira - 13/04/2017](https://github.com/giuliazc/Open-Lab-Book/blob/master/notes/nnc.md)
